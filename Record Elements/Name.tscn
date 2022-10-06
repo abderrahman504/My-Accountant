@@ -1,0 +1,15 @@
+[gd_scene format=2]
+
+[node name="Name" type="PanelContainer"]
+anchor_right = 0.298
+anchor_bottom = 0.075
+margin_right = -0.200005
+rect_min_size = Vector2( 50, 0 )
+
+[node name="LineEdit" type="LineEdit" parent="."]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 112.0
+margin_bottom = 53.0
+text = "Name"
+expand_to_text_length = true

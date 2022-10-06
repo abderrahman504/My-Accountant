@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/G81dQ2qOyUU2NC8J8mChl7YoTJU68EtU079LpIDVy05eEyBB/0YSGXMtA45uhzfFuaIolDaiNs7j2joEILjcA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\abdelrahman\\Documents\\Godot\\My Accountant\\My Accountant.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abdelrahman\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\abdelrahman\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.2\\microsoft.netframework.referenceassemblies.net472.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

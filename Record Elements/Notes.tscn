@@ -1,0 +1,13 @@
+[gd_scene format=2]
+
+[node name="Notes" type="PanelContainer"]
+margin_right = 14.0
+margin_bottom = 14.0
+rect_min_size = Vector2( 50, 0 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 57.0
+margin_bottom = 27.0
+text = "Notes"

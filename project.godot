@@ -11,7 +11,15 @@ config_version=4
 [application]
 
 config/name="My Accountant"
+run/main_scene="res://Main/Main.tscn"
 config/icon="res://icon.png"
+
+[debug]
+
+gdscript/warnings/shadowed_variable=false
+gdscript/warnings/narrowing_conversion=false
+gdscript/warnings/unused_signal=false
+gdscript/warnings/return_value_discarded=false
 
 [display]
 

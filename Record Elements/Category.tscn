@@ -1,0 +1,23 @@
+[gd_scene format=2]
+
+[node name="Category" type="PanelContainer"]
+margin_right = 77.0
+margin_bottom = 34.0
+rect_min_size = Vector2( 50, 0 )
+
+[node name="Button" type="OptionButton" parent="."]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 70.0
+margin_bottom = 27.0
+text = "None"
+items = [ "None", null, false, 0, null ]
+selected = 0
+
+[node name="PopupMenu2" type="PopupMenu" parent="Button"]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_top = 25.0
+margin_bottom = 153.0
+items = [ "Item 0", null, 0, false, false, 0, 0, null, "", false, "Item 1", null, 0, false, false, 1, 0, null, "", false, "Item 2", null, 0, false, false, 2, 0, null, "", false, "Item 3", null, 0, false, false, 3, 0, null, "", false, "Item 4", null, 0, false, false, 4, 0, null, "", false, "Item 5", null, 0, false, false, 5, 0, null, "", false ]

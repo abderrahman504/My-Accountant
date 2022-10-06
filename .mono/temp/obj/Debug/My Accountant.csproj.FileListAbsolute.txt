@@ -1,0 +1,9 @@
+C:\Users\abdelrahman\Documents\Godot\My Accountant\.mono\temp\bin\Debug\My Accountant.dll
+C:\Users\abdelrahman\Documents\Godot\My Accountant\.mono\temp\bin\Debug\My Accountant.pdb
+C:\Users\abdelrahman\Documents\Godot\My Accountant\.mono\temp\obj\Debug\My Accountant.csproj.AssemblyReference.cache
+C:\Users\abdelrahman\Documents\Godot\My Accountant\.mono\temp\obj\Debug\My Accountant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdelrahman\Documents\Godot\My Accountant\.mono\temp\obj\Debug\My Accountant.AssemblyInfoInputs.cache
+C:\Users\abdelrahman\Documents\Godot\My Accountant\.mono\temp\obj\Debug\My Accountant.AssemblyInfo.cs
+C:\Users\abdelrahman\Documents\Godot\My Accountant\.mono\temp\obj\Debug\My Accountant.csproj.CoreCompileInputs.cache
+C:\Users\abdelrahman\Documents\Godot\My Accountant\.mono\temp\obj\Debug\My Accountant.dll
+C:\Users\abdelrahman\Documents\Godot\My Accountant\.mono\temp\obj\Debug\My Accountant.pdb
