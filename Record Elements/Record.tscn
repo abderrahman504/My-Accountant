@@ -18,34 +18,72 @@ script = ExtResource( 7 )
 [node name="Name" parent="." instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_right = 104.866
+margin_right = 102.0
 margin_bottom = 56.0
+rect_min_size = Vector2( 102, 0 )
+
+[node name="LineEdit" parent="Name" index="0"]
+margin_right = 95.0
+margin_bottom = 49.0
 
 [node name="Amount" parent="." instance=ExtResource( 3 )]
-margin_left = 108.0
-margin_right = 238.866
+margin_left = 106.0
+margin_right = 233.0
 margin_bottom = 56.0
+rect_min_size = Vector2( 127, 0 )
+
+[node name="LineEdit" parent="Amount" index="0"]
+margin_right = 120.0
+margin_bottom = 49.0
 
 [node name="Date" parent="." instance=ExtResource( 2 )]
-margin_left = 242.0
-margin_right = 308.0
+margin_left = 237.0
+margin_right = 303.0
 margin_bottom = 56.0
 
+[node name="Label" parent="Date" index="0"]
+margin_top = 19.0
+margin_right = 59.0
+margin_bottom = 37.0
+
 [node name="Category" parent="." instance=ExtResource( 5 )]
-margin_left = 312.0
-margin_right = 425.324
+margin_left = 307.0
+margin_right = 420.324
 margin_bottom = 56.251
+
+[node name="Button" parent="Category" index="0"]
+margin_right = 106.324
+margin_bottom = 49.251
+items = [ "None", null, false, 0, null ]
+
+[node name="PopupMenu2" parent="Category/Button" index="1"]
+items = [ "Item 0", null, 0, false, false, 0, 0, null, "", false, "Item 1", null, 0, false, false, 1, 0, null, "", false, "Item 2", null, 0, false, false, 2, 0, null, "", false, "Item 3", null, 0, false, false, 3, 0, null, "", false, "Item 4", null, 0, false, false, 4, 0, null, "", false, "Item 5", null, 0, false, false, 5, 0, null, "", false ]
 
 [node name="Notes" parent="." instance=ExtResource( 4 )]
-margin_left = 429.0
-margin_right = 529.324
+margin_left = 424.0
+margin_right = 524.324
 margin_bottom = 56.251
 
+[node name="Button" parent="Notes" index="0"]
+margin_right = 93.3241
+margin_bottom = 49.251
+
 [node name="Delete" type="TextureButton" parent="."]
-margin_left = 533.0
-margin_right = 563.0
+margin_left = 528.0
+margin_right = 558.0
 margin_bottom = 56.0
 rect_min_size = Vector2( 30, 0 )
 texture_normal = ExtResource( 6 )
 expand = true
 stretch_mode = 5
+
+[connection signal="text_changed" from="Name/LineEdit" to="." method="on_name_changed"]
+[connection signal="text_changed" from="Amount/LineEdit" to="." method="on_amount_changed"]
+[connection signal="item_selected" from="Category/Button" to="." method="on_category_changed"]
+[connection signal="button_up" from="Delete" to="." method="delete"]
+
+[editable path="Name"]
+[editable path="Amount"]
+[editable path="Date"]
+[editable path="Category"]
+[editable path="Notes"]

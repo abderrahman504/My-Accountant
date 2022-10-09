@@ -10,5 +10,6 @@ margin_left = 7.0
 margin_top = 7.0
 margin_right = 78.0
 margin_bottom = 31.0
-text = "Amount"
 expand_to_text_length = true
+placeholder_text = "Amount"
+caret_blink = true

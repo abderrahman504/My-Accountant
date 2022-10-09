@@ -11,5 +11,6 @@ margin_left = 7.0
 margin_top = 7.0
 margin_right = 112.0
 margin_bottom = 53.0
-text = "Name"
 expand_to_text_length = true
+placeholder_text = "Name"
+caret_blink = true
