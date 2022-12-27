@@ -37,7 +37,6 @@ public class RecordsDisplay : PanelContainer
 
 	private void minimize_column_widths()
 	{
-		GD.Print("Minimizing");
 		Godot.Collections.Array rows = GetNode<VBoxContainer>("VBoxContainer").GetChildren(); 
 		for (int i=1; i < rows.Count-1; i++)
 		{
@@ -81,9 +80,18 @@ public class RecordsDisplay : PanelContainer
 		}
 	}
 
-	/*
-	Normalizing columns is a two stage process with a pause in-between. 
-	First, minimize columns (funcion available).
-	Second, find the maximum width and set the column length to that (function available. Needs to be renamed).
-	*/
+	public void update_category_list()
+	{
+		Godot.Collections.Array records = GetNode("VBoxContainer").GetChildren();
+		foreach(Record rec in records)
+		{
+			MenuButton button = rec.GetNode("Category").GetNode<MenuButton>("Button");
+			button.GetPopup().Clear();
+			button.GetPopup().AddItem("None");
+			foreach(String catName in GlobRefs.categories)
+			{
+				button.GetPopup().AddItem(catName);
+			}
+		}
+	}
 }

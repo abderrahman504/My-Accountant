@@ -57,7 +57,7 @@ margin_bottom = 49.251
 items = [ "None", null, false, 0, null ]
 
 [node name="PopupMenu2" parent="Category/Button" index="1"]
-items = [ "Item 0", null, 0, false, false, 0, 0, null, "", false, "Item 1", null, 0, false, false, 1, 0, null, "", false, "Item 2", null, 0, false, false, 2, 0, null, "", false, "Item 3", null, 0, false, false, 3, 0, null, "", false, "Item 4", null, 0, false, false, 4, 0, null, "", false, "Item 5", null, 0, false, false, 5, 0, null, "", false ]
+items = [  ]
 
 [node name="Notes" parent="." instance=ExtResource( 4 )]
 margin_left = 424.0
